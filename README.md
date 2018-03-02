@@ -3,7 +3,23 @@
 a java implementation of ad retrival algorithm proposed in [Indexing Boolean Expressions-Ⅱ.pdf](http://opbs7gfa4.bkt.clouddn.com/paper/Indexing%20Boolean%20Expressions-%E2%85%A1.pdf)
 
 
-## Demo
+## QuickStart
+
+- **Requirement**: ``Java8``
+
+- **Maven Dependency**
+
+``` xml
+<dependency>
+  <groupId>com.downgoon</groupId>
+  <artifactId>adindex4j</artifactId>
+  <version>${version}</version>
+</dependency>
+```
+
+the lastest release version can be found here [g:"com.downgoon" a:"adindex4j"](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.downgoon%22%20a%3A%22adindex4j%22)
+
+- **Sample Code**
 
 ``` java
 // 5 ad documents targeting several attributes
